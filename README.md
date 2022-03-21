@@ -1,4 +1,4 @@
-# byron-bot
+# byron-bot 🤖☕️✍️
 Attempting to write a small AI bot that can write poetry! Inspired by other current bots and by my 12th grade essay for college.
 
 ## Goal:
