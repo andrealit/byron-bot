@@ -1,0 +1,11 @@
+Write a movie dialog from Harry Potter.
+
+"I'm not going back to Hogwarts."
+
+"You have to, Harry. You're the only one who can stop Voldemort."
+
+"I don't care. I'm not going back."
+
+"Harry, please. You're the only one who can save us."
+
+"I don't want to be the savior. I just want to be left alone."
