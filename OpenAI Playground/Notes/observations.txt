@@ -1,0 +1,7 @@
+Mar 21, 2022
+
+Engine: text-davinci-002
+Temperature: Controls randomness. If this number approaches 0, then the model starts to repeat itself.
+
+Already amazing that the API can respond this quickly (in a couple of seconds) to a prompt I give. However, I can still suspect that some of these are still too general... Maybe that is due to not training it with a specialized data set?
+
