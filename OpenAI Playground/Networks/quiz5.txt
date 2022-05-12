@@ -1,0 +1,30 @@
+Consider the subnet with prefix 220.1.6.0/23.
+Suppose we want to create 8 subnets within this above subnet, with each subnet needing to support 56 hosts. Give the prefixes of these 8 subnets in the (decimal) form a.b.c.d/x.
+
+220.1.6.0/26
+220.1.6.64/26
+220.1.6.128/26
+220.1.6.192/26
+220.1.7.0/26
+220.1.7.64/26
+220.1.7.128/26
+220.1.7.192/26
+
+Show your work.
+
+The prefix 220.1.6.0/23 gives us a range of addresses from 220.1.6.0 to 220.1.7.255. We need to create 8 subnets, each with 56 hosts.
+
+The first step is to determine the number of bits we need to borrow from the host part of the address to create the required number of subnets. We can do this by finding the log base 2 of the number of subnets we need, which is 8 in this case. This gives us a value of 3, which means we need to borrow 3 bits from the host part of the address.
+
+This leaves us with 3 bits for the host part of the address, which gives us a total of 8 hosts per subnet (2^3 = 8).
+
+We can now calculate the prefixes of the 8 subnets:
+
+220.1.6.0/26
+220.1.6.64/26
+220.1.6.128/26
+220.1.6.192/26
+220.1.7.0/26
+220.1.7.64/26
+220.1.7.128/26
+220.1.7.192/26
